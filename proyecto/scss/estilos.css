@@ -1,0 +1,273 @@
+.nav-item:hover > i {
+  color: orange;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.navbar-brand:hover > i {
+  color: orange;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+h1 {
+  font-size: 50;
+  color: #3c7207;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  color: #3bca0f;
+  font-size: 25px;
+  text-align: left;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  color: orange;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.parrafo-inicio {
+  color: #0a4b0a;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-envio {
+  text-align: center;
+  font-family: Poppins,sans-serif;
+  color: orange;
+  padding-top: 5%;
+  font-size: larger;
+}
+
+.foto-titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.foto-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.info-cart {
+  text-align: center;
+}
+
+.titulo-produ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.txt-produ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.ayuda {
+  color: green;
+}
+
+.A-text {
+  color: black;
+}
+
+.A-h2 {
+  color: #856b26;
+  padding-left: 2%;
+}
+
+.tab {
+  color: #856b26;
+}
+
+.tab-text {
+  color: #092509;
+}
+
+.footer p {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  padding: 0px;
+  background-color: orange;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  margin: 7% auto;
+  text-align: center;
+}
+
+.fa-copyright {
+  background-color: orange;
+}
+
+.body {
+  font-family: 'Roboto', sans-serif;
+  color: #024202;
+}
+
+#video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+.img-envio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+.img-bch {
+  width: 25%;
+  height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+.img-ofert {
+  text-align: center;
+  color: orange;
+  font-size: larger;
+}
+
+.img--ofer {
+  text-align: center;
+  color: orange;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#produ {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.foto-produ {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 10px;
+}
+
+.foto-inicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.img-cart {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header header header" "main main main" "footer footer footer";
+}
+
+.grid-footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: footer;
+}
+
+.grid-header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+}
+
+.grid-main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: main;
+}
+/*# sourceMappingURL=estilos.css.map */
