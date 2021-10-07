@@ -1,0 +1,100 @@
+h1 {
+    font-size: 50;
+    color: rgb(60, 114, 7);
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {color: rgb(59, 202, 15);
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h2 {
+    color: orange;
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .parrafo-inicio {
+    color: rgb(10, 75, 10);
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+.text-envio{
+    text-align: center;
+    font-family: Poppins,sans-serif;
+    color: orange;
+    padding-top: 5%;
+    font-size: larger;
+}
+
+.foto-titulo{
+    display: flex;
+    justify-content: space-around;
+}   
+
+
+.foto-txt{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-cart{
+        text-align: center;
+    }
+
+
+.titulo-produ{
+    display: flex;
+    justify-content: space-around;
+}
+
+.txt-produ{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ayuda{
+    color: green;
+}
+
+.A-text{
+    color: black;
+}
+
+.A-h2{
+    color: rgb(133, 107, 38);
+    padding-left: 2%;
+}
+
+.tab{
+    color: rgb(133, 107, 38);
+}
+
+.tab-text{
+    color: rgb(9, 37, 9);
+}
